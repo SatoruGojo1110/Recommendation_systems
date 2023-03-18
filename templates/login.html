@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <script src="https://kit.fontawesome.com/0cdc049c53.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            
+            <div class="login-left">
+                <div class="space-div">
+                </div>
+                <div class="left-head">
+                    <h1>Welcome To Our Website</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis minus qui quidem, aut sequi
+                        provident?</p>
+                </div>
+                <div class="left-tail">
+                    <div class="tail-left">
+                        <img src="static/images/trans-2.webp" alt="">
+                    </div>
+                    <div class="trans-1">
+                        <img src="static/images/login-trans.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <form action="/home">
+                <h1>PREDICTIVE SYSTEM</h1>
+                <div class="inputDiv">
+                    <div class="inputDivsmall">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <input type="text" class="txt-control" required placeholder="Email or Username">
+                </div>
+                <div class="inputDiv">
+                    <div class="inputDivsmall">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <input type="password" class="txt-control" required placeholder="Password">
+                </div>
+                <div class="cf">
+                    <div class="check">
+                        <input type="checkbox" class="checkbox">
+                        <p>Remember me</p>
+                    </div>
+                    <div class="forgot">
+                        <a href="">
+                            <p>Fogot Password</p>
+                        </a>
+                    </div>
+                </div>
+                <input type="submit" class="login" value="Login">
+                <div class="signup">
+                    <a href="/signup">
+                        <p>Don't Have An Account? Sign-Up</p>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

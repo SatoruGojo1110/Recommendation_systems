@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/signup.css') }}">
+    <script src="https://kit.fontawesome.com/0cdc049c53.js" crossorigin="anonymous"></script>
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="login-left">
+                <div class="space-div">
+                </div>
+                <div class="left-head">
+                    <h1>Welcome To Our Website</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis minus qui quidem, aut sequi
+                        provident?</p>
+                </div>
+                <div class="left-tail">
+                    <div class="tail-left">
+                        <img src="static/images/trans-2.webp" alt="">
+                    </div>
+                    <div class="trans-1">
+                        <img src="static/images/login-trans.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <form action="/">
+                <h1>PREDICTIVE SYSTEM</h1>
+                <div class="inputDiv">
+                    <div class="inputDivsmall">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <input type="text" class="txt-control" required placeholder="Username">
+                </div>
+                <div class="inputDiv">
+                    <div class="inputDivsmall">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <input type="text" class="txt-control" required placeholder="Email">
+                </div>
+                <div class="inputDiv">
+                    <div class="inputDivsmall">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <input type="password" class="txt-control" required placeholder="Password">
+                </div>
+                <div class="check">
+                    <input type="checkbox" class="checkbox">
+                    <p>Send Verification Mail !</p>
+                </div>
+                <input type="submit" class="signup" value="SignUp">
+                <div class="login">
+                    <a href="/">
+                        <p>Already Have An Account? Log-In.</p>
+                    </a>
+                </div>
+                <div class="alts">
+                    <a href="https://myaccount.google.com"><img src="static/css/images/google.svg" alt=""></a>
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
